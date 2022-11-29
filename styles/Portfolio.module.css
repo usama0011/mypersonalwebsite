@@ -1,0 +1,10 @@
+.container{
+    max-width: 70%;
+    margin: auto;
+}
+.navigation_pannel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

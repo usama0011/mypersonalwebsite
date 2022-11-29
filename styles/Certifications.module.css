@@ -1,0 +1,142 @@
+.container{
+    width: 100%;
+    padding: 10px;
+}
+.header{
+    background-color:  #fd5b1c;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+.navigation_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: rgb(235, 233, 233);
+     width: fit-content;
+     margin: auto;
+     font-weight: bold;
+     border-radius: 5px;
+ }
+ .exploreLink{
+     padding: 18px 40px;
+ }
+.nav_buttons > ul{
+    display: flex;
+    list-style: none;
+}
+.nav_buttons > ul > li{
+    padding: 8px 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.one{
+    background-color: black;
+    color: white;
+}
+.grid_Container{
+ margin: 50px 0px;
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(350px,350px));
+ grid-gap: 10px;
+}
+.image_Container{
+    position: relative;
+}
+.subTitle > span{
+    padding: 0px 10px;
+}
+.subTitle > span:first-child{
+    font-weight: bold;
+}
+.subTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    background: linear-gradient(#e67b4a,#e67b4a,#e67b4a);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: none;
+    color: white;
+    padding: 20px 10px;
+    transition: width 2s, height 2s, background-color 2s, transform
+}
+.image_Container{
+    overflow: hidden;
+    transition: 2s ease-in-out;
+    cursor: pointer;
+}
+.subTitle > span:first-child{
+    font-size: 16px;
+}
+.subTitle > span:last-child{
+    font-size: 14px;
+}
+.image_Container > a:hover  >  .subTitle{
+    display: block;
+    cursor: pointer; 
+    transition: all 2s ease-in-out;
+    transform-origin:bottom;
+}
+.image_Container > a:hover > .single_image{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+.single_image{
+    border-width: 20px;
+    border-style: groove;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    Border-color: #e67b4a;
+    box-shadow: 0 14px 28px rgba(75, 72, 72, 0.25), 0 10px 10px rgba(90, 86, 86, 0.22); 
+}
+.frontEndBadge{
+    border-width: 20px;
+    border-style: groove;
+    Border-color: #e67b4a;
+}
+.backendBadge{
+    border-width: 20px;
+    border-style: groove;
+    Border-color: #e67b4a;
+}
+.databaseBadge{
+    border-width: 20px;
+    border-style: groove;
+    Border-color: #4aecec;
+}
+.fullstackBadge{
+    border-width: 20px;
+    border-style: groove;
+    Border-color: #4aecec;
+}
+@media screen and (max-width:749px) {
+ .nav_buttons{
+    margin-top: 20px;
+ 
+}
+.nav_buttons > ul{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+}
+@media screen and (max-width:460px) {
+    .nav_buttons > ul > li:last-child{
+    margin-top: 20px;
+    }
+   }

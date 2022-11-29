@@ -1,0 +1,58 @@
+[
+    {
+   "certificateImage":"/BackEnd.png",
+   "certificateName":"Back End",
+    "certificateInstitute":"Free Code Camp",
+    "certificatieLink":"https://freecodecamp.org/certification/UsamaAhmad/back-end-development-and-apis"
+  },
+  {
+   "certificateImage":"/FrontEnd.png",
+   "certificateName":"Front End",
+    "certificateInstitute":"Free Code Camp",
+    "certificatieLink":"https://freecodecamp.org/certification/UsamaAhmad/responsive-web-design"
+
+  },
+  {
+   "certificateImage":"/credly.png",
+   "certificateName":"Front End",
+    "certificateInstitute":"Coursera",
+    "certificatieLink":"https://www.coursera.org/account/accomplishments/verify/8H5L64MCVVSZ"
+
+
+  },
+  {
+   "certificateImage":"/DataBase.jpg",
+   "certificateName":"DataBase",
+    "certificateInstitute":"Mongo DB University",
+    "certificatieLink":"https://university.mongodb.com/courses/M001/2022_September_27/completion"
+
+  },
+  {
+   "certificateImage":"/Deploma.png",
+   "certificateName":"Full Stack",
+    "certificateInstitute":"Coursera",
+    "certificatieLink":"https://www.coursera.org/account/accomplishments/specialization/certificate/3YYSUPAHZBYV"
+
+  },
+  {
+   "certificateImage":"/JavaScript.png",
+   "certificateName":"Front End",
+    "certificateInstitute":"Free Code Camp",
+    "certificatieLink":"https://freecodecamp.org/certification/UsamaAhmad/javascript-algorithms-and-data-structures"
+
+  },
+  {
+   "certificateImage":"/React.png",
+   "certificateName":"Front End",
+    "certificateInstitute":"Free Code Camp",
+    "certificatieLink":"https://freecodecamp.org/certification/UsamaAhmad/front-end-development-libraries"
+
+  },
+  {
+   "certificateImage":"/hongkong.png",
+   "certificateName":"Full Stack",
+    "certificateInstitute":"Credly",
+    "certificatieLink":"https://www.credly.com/users/usama-ahmad.1ae80527/badges"
+
+  }
+]

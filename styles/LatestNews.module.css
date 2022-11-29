@@ -1,0 +1,73 @@
+.container{
+    margin: 100px 0px;
+    padding: 10px;
+}
+.ImageContainer{
+    overflow: hidden;
+    transform: all 0.5 ease;
+    border-radius: 5px;
+}
+.new_Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin: auto;
+    cursor: pointer;
+    grid-gap: 20px;
+}
+.myImage{
+transition: all .5s;
+transition: transform .5s ease;
+filter: drop-shadow(0 0 0.75rem rgb(177, 169, 171));
+border-radius: 5px;
+object-fit: cover;}
+.myImage:hover{
+    transform: translate(-3px, -3%);
+
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: rgb(235, 233, 233);
+     width: fit-content;
+     margin: auto;
+     font-weight: bold;
+     border-radius: 5px;
+ }
+ .exploreLink{
+     padding: 18px 40px;
+ }
+.new_Top > p:first-child{
+    background-color:  #fd5b1c;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+.new_Top > h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.dates{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(109, 101, 101);
+    transition: all 0.3s ease;
+}
+.dates:hover{
+color: black;
+}
+
+.DateIcon{
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+    
+}
+.ImageContainer > h2{
+    margin: 10px 0px;
+}

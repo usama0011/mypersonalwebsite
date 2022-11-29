@@ -1,0 +1,123 @@
+.container{
+  margin-top: 100px;
+}
+.icon{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+.contact_Container{
+  display: flex;
+  margin: auto;
+  max-width: 70%;
+  margin: auto;
+  flex-wrap:wrap;
+}
+.contact_left{
+  background-color: #5cce93;
+  flex: 0.4;
+  color: white;
+  padding: 30px;
+}
+.contact_right{
+  flex: 0.6;
+}
+.address_box{
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+}
+.contact_left > h2{
+  padding: 20px 0px;
+  font-size: 30px;
+}
+.contact_left > p{
+  line-height: 30px;
+}
+.form_container > form{
+  width: 100%;
+}
+.form_container{
+  width: 100%;
+}
+.contact_right{
+  padding: 30px;
+  width: 100%;
+
+}
+.first_box{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.item
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0px;
+}
+.item > input{
+font-size: 16px;
+
+  outline: none;
+  padding: 12px 4px;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+.item > input::placeholder{
+  color: gray;
+}
+.item > label{
+  padding: 10px 0px;
+  font-weight: bold;
+  
+}
+.specila{
+  margin-right: 10px;
+}
+.sendButton{
+  width:fit-content;
+  background-color: #5cce93;
+  color: white;
+  border:none;
+  margin: 50px 0px;
+  padding:15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+.text_area {
+  width: 100%;
+height: 150px;
+box-sizing: border-box;
+border: none;
+border-bottom: 1px solid gainsboro;
+border-radius: 4px;
+font-size: 16px;
+outline: none;
+resize: none;
+}
+@media screen and  (max-width:785px) {
+ .contact_left{
+
+  flex: 1;
+ } 
+ .contact_right{
+  flex: 1;
+ }
+ .contact_Container{
+  max-width: 100%;
+ }
+}
+@media screen and (max-width:667px) {
+ .item > label{
+  font-size: 12px;
+ }
+ .item > input{
+  font-size: 15px;
+ }
+}

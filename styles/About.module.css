@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(370px,1fr));
+    grid-gap: 30px;
+}
+.imageContainer{
+    display:grid;
+    place-self: center;
+}
+.introContainer{
+    padding: 30px;
+}
+.aboutMeHead{
+  background-color: rgb(250, 250, 250);
+  width:fit-content;
+  padding: 12px 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.heading{
+    margin: 20px 0px;
+}
+.description{
+    line-height: 30px;
+    color: rgb(109, 101, 101);
+}
+.dv{
+    background-color: black;
+    color:white;
+    width: fit-content;
+    margin-top: 30px;
+    padding: 18px 30px;
+}

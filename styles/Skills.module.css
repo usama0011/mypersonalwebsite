@@ -1,0 +1,17 @@
+.container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(600px,1fr));
+    padding: 100px 0px;
+}
+.skill_heading{
+    padding: 0px 20px;
+}
+.skill_heading > h1{
+    font-size: 45px;
+}
+.skill_heading > p{
+    padding-top: 20px;
+    line-height: 30px;
+    color: rgb(109, 101, 101);
+}
